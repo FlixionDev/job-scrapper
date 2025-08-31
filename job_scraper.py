@@ -15,6 +15,10 @@ SENDER_EMAIL = os.getenv("SENDER_EMAIL")
 SENDER_PASSWORD = os.getenv("SENDER_PASSWORD")  # This should be an App Password, not your regular password
 RECEIVER_EMAIL = os.getenv("RECEIVER_EMAIL")
 
+print(f"SENDER_EMAIL: {SENDER_EMAIL}")
+print(f"SENDER_PASSWORD: {SENDER_PASSWORD}")
+print(f"RECEIVER_EMAIL: {RECEIVER_EMAIL}")
+
 # Job Search Config
 QUERY = "Frontend Developer React Vue"
 LOCATION = "India"
