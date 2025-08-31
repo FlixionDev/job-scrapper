@@ -64,3 +64,20 @@ If you see "Username and Password not accepted" error:
 - Make sure all required packages are installed: `pip install -r requirements.txt`
 - Check that your internet connection is stable
 - Verify that the job search query and location are valid
+
+## 🚀 GitHub Actions Setup
+
+To run this job scraper automatically on GitHub Actions (recommended for scheduled jobs):
+
+1. **Follow the detailed setup guide**: [GITHUB_ACTIONS_SETUP.md](GITHUB_ACTIONS_SETUP.md)
+2. **Key requirements**:
+   - Generate a Gmail App Password (not regular password)
+   - Set up GitHub Secrets with your email credentials
+   - The workflow will run daily at 9:00 AM UTC
+
+**Benefits of GitHub Actions:**
+- ✅ Free tier with generous limits
+- ✅ Scheduled execution (cron jobs)
+- ✅ No need to keep your computer running
+- ✅ Automatic email delivery
+- ✅ Easy monitoring and debugging
